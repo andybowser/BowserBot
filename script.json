@@ -1,8 +1,8 @@
 {
     "BOT": "Hi there!\nI’m the personal bot of Andy, a System Admin from Sydney.\n![andy](https://bow.sr/images/sun_profile_small.jpg)\nWant to know more about bots or learn about Andy? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Andy](postback:learn_about_andy) %[One random fact!](postback:random_fact)",
-    "HELLO": "Welcome. Would you like to see my LinkedIn Profile so you can offer me a job?,
+    "HELLO": "Welcome. Would you like to see my LinkedIn Profile so you can offer me a job?"
     "YES": "Great, it's here"
-    "I LOVE YOU": "Awh, shucks! I love you too!",
+    "I LOVE YOU": "Awh, shucks! I love you too!"
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, BowserBot is back."
 }
