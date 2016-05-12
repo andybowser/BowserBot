@@ -1,8 +1,8 @@
-# EstherBot built using the Smooch Bot example
+# BowserBot built using the Smooch Bot example
 If you want a slightly more sophisticated setup and are comfortable using the console then go see the original here: https://github.com/smooch/smooch-bot-example 
 
-Or if you want to test out EstherBot live go say hi on your platform of choice:
-http://estherbot.com
+Or if you want to test out BowserBot live go say hi on your platform of choice:
+http://bow.sr
 
 ## Build Your Bot
 
@@ -20,7 +20,7 @@ Creating this version will give you a web based chat app. With a few integration
 
 1. Deploy your app to Heroku using the button below. It's a service for hosting apps so go sign up if you don't already have an account – it's free. You'll need to specify your app token, key ID, and secret in the app's `SMOOCH_APP_TOKEN`, `SMOOCH_KEY_ID`, and `SMOOCH_SECRET` config settings.
 
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/esthercrawford/estherbot)
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bowsercrawford/bowserbot)
 
 1. Your app should now be running on Heroku but you're not quite done yet. Take note of the URL where your heroku app is running, for example `https://foo-bar-4242.herokuapp.com`. You'll need to specify this in your heroku app `SERVICE_URL` config variable. You can do this in the Heroku control panel under *Settings* > *Config Variables*. Make sure to go under Deploy and connect to your GitHub repo. Then, enable Automatic Deploys from the master branch (this means anytime you make an edit to your bot's script, it'll automatically update and talk as intended in seconds.) 
 
@@ -35,13 +35,13 @@ Keywords are not case sensitive for users.
 
 The only two keywords you don't want to change are CONNECT ME and DISCONNECT. CONNECT ME turns the automated chat off, so the bot will stop responding to keywords. DISCONNECT will turn the bot back on. 
 
-Also, the initial script starts with "So you want to learn about Esther? ..." but of course you'll want to change it. You can edit it in the script.js file.
+Also, the initial script starts with "So you want to learn about bowser? ..." but of course you'll want to change it. You can edit it in the script.js file.
 
 ##Add line breaks to your messages
 If you want your bot's responses to be broken into different bubbles you'll need to add \n.
-Here's an example: Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.
+Here's an example: Hi there!\nI’m the personal bot of Bowser, a Product Marketer from San Francisco.
 
-Now that message will be broken into two bubbles. First, it'll say "Hi there!" then it'll say "I'm the personal bot of Esther, a Product Marketer from San Francisco."
+Now that message will be broken into two bubbles. First, it'll say "Hi there!" then it'll say "I'm the personal bot of Bowser, a Product Marketer from San Francisco."
 
 ##Add images to your messages
 Adding pictures is super easy. Make sure you upload the files to your img folder. Then click on the image and select Raw to get the link for your image.
@@ -58,9 +58,9 @@ In the script.json file you'll notice this:
 What you need to know is that's a button. The "I'm here for the bot" piece is what the button says. The postback reference is for you to know what the button does.
 
 Here's the syntax for a button that sends a user to an external link: 
-![Tweet Esther](/img/Screenshot%202016-04-29%2018.52.04.png)
+![Tweet Bowser](/img/Screenshot%202016-04-29%2018.52.04.png)
 
-Notice "Tweet Esther" is what the button says, and then inside the parenthesis you find where the button links off to.
+Notice "Tweet Bowser" is what the button says, and then inside the parenthesis you find where the button links off to.
 
 ##Bring it altogether
 Read the code below and you'll see there are line breaks, an image, and 3 buttons in this bot's response.   
@@ -73,4 +73,4 @@ Open the Smooch [control panel](https://app.smooch.io) and add more integrations
 ![slack](/img/slack.png)
 
 ##Troubleshooting your bot
-Andrew at Smooch.io added some info for how to get your bot in line if it's acting up. It requires the command line so here you go: https://github.com/alavers/EstherBot/blob/troubleshooting-docs/README.md#troubleshooting-your-bot
+Andrew at Smooch.io added some info for how to get your bot in line if it's acting up. It requires the command line so here you go: https://github.com/alavers/BowserBot/blob/troubleshooting-docs/README.md#troubleshooting-your-bot
