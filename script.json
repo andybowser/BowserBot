@@ -1,10 +1,10 @@
 {
-    "HELLO": "Hi there!\nI’m the personal bot of Andy Bowser, a Sys Admin from Sydney.\nWhat brings you here? %[Checking out my resume?](postback:resume) %[Did you want to get in touch?](postback:contact)",
-    "Checking out my resume?": "Thanks. I've got a LinkedIn page, or I can chat about it here. %[Show me the website](https://au.linkedin.com/in/andybowser) %[Tell me more](postback:more)",
-    "Tell me more": "Ok. What would you like to know about? %[Employment History](postback:EMPLOYMENT) %[Extracurriculars](postback:EXTRAS)",
-    "Employment History": "Right now I'm working as a System Administrator at Dubsat in Sydney, Australia. %[What else have you done?](postback:MOREWORK) %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
-    "What else have you done?": "Before Dubsat I was at Playroom, a digital media company that is part of Omnilab Media Group. Before that, I was in the UK working for LiDCO.%[What else you done?](postback:MORE) %[All done](postback:DONE)",
-    "Extracurriculars": "When I'm not setting up servers or messing with chatbots, I'm probably listening to music. %[What else you done?](postback:MORE) %[I'm all good!](postback:DONE)",
-    "Did you want to get in touch?": "If I'm around you may hear from me on this chat, as it's linked to Slack. Otherwise you can get in touch through my website. %[Check out my website](https://bow.sr)",
-    "All done": "Thanks for chatting to the BowserBot. Hopefully we'll talk again soon."
+    "HELLO": "Hi there!\nI’m the personal bot of Andy Bowser, a Sys Admin from Sydney.\nWhat brings you here? %[RESUME](postback:resume) %[Did you want to get in touch?](postback:contact)",
+    "RESUME": "Thanks. I've got a LinkedIn page, or I can chat about it here. %[Show me the website](https://au.linkedin.com/in/andybowser) %[MORE](postback:more)",
+    "MORE": "Ok. What would you like to know about? %[EMPLOYMENT](postback:EMPLOYMENT) %[Extracurriculars](postback:EXTRAS)",
+    "EMPLOYMENT": "Right now I'm working as a System Administrator at Dubsat in Sydney, Australia. %[MOREWORK](postback:MOREWORK) %[MORE](postback:MORE) %[DONE](postback:DONE)",
+    "MOREWORK": "Before Dubsat I was at Playroom, a digital media company that is part of Omnilab Media Group. Before that, I was in the UK working for LiDCO.%[MORE](postback:MORE) %[DONE](postback:DONE)",
+    "Extracurriculars": "When I'm not setting up servers or messing with chatbots, I'm probably listening to music. %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
+    "CONTACT": "If I'm around you may hear from me on this chat, as it's linked to Slack. You can get in touch through my website. %[Check out my website](https://bow.sr)",
+    "DONE": "Thanks for chatting to the BowserBot. Hopefully we'll talk again soon."
 }
