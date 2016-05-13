@@ -5,6 +5,6 @@
     "EMPLOYMENT": "Right now I'm working as a System Administrator at Dubsat in Sydney, Australia. %[What else have you done?](postback:MOREWORK) %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
     "MOREWORK": "Before Dubsat I was at Playroom, a digital media company that is part of Omnilab Media Group. Before that, I was in the UK working for LiDCO.%[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
     "EXTRAS": "When I'm not setting up servers or messing with chatbots, I'm probably listening to music. %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
-    "CONTACT": "If I'm around you may hear from me on this chat, as it's linked to Slack. But here are some other ways to get in touch. %[Email Me](mailto:andy@bow.sr) %[Check out my website](https://bow.sr)",
+    "CONTACT": "If I'm around you may hear from me on this chat, as it's linked to Slack. You can get in touch through my website. %[Check out my website](https://bow.sr)",
     "DONE": "Thanks for chatting to the BowserBot. Hopefully we'll talk again soon."
 }
