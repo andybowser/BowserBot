@@ -1,7 +1,7 @@
 {
-    "HELLO": "Hi there!\nI’m the personal bot of Andy Bowser, a Sys Admin from Sydney.\nWhat brings you here? %[Checking out your CV](postback:CV) %[Wanted to get in touch](postback:CONTACT),
-    "CV": "Very nice! I've got a LinkedIn page, or I can chat about it here. %[Show me the website](https://au.linkedin.com/in/andybowser %[Tell me more](postback:MORE)",
-    "MORE": "Ok! What would you like to know about? %[Employment History](postback:EMPLOYMENT) %[Education](postback:EDUCATION) %[Extracurriculars](postback:EXTRAS)",
+    "HELLO": "Hi there!\nI’m the personal bot of Andy Bowser, a Sys Admin from Sydney.\nWhat brings you here? %[Checking out your RESUME](postback:CV) %[Wanted to get in touch](postback:CONTACT),
+    "RESUME": "Very nice! I've got a LinkedIn page, or I can chat about it here. %[Show me the website](https://au.linkedin.com/in/andybowser %[Tell me more](postback:MORE)",
+    "MORE": "Ok! What would you like to know about? %[Employment History](postback:EMPLOYMENT) %[Extracurriculars](postback:EXTRAS)",
     "EMPLOYMENT": "Right now I'm working as a System Administrator at Dubsat in Sydney, Australia. %[What else have you done?](postback:MOREWORK) %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
     "MOREWORK": "Before Dubsat I was at Playroom, a digital media company that is part of Omnilab Media Group. Before that, I was in the UK working for LiDCO.%[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
     "EXTRAS": "When I'm not setting up servers or messing with chatbots, I'm probably listening to music. %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
