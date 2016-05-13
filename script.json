@@ -1,6 +1,6 @@
 {
-    "HELLO": "Hi there!\nI’m the personal bot of Andy Bowser, a Sys Admin from Sydney.\nWhat brings you here? %[RESUME](postback:resume) %[Did you want to get in touch?](postback:contact)",
-    "RESUME": "Thanks. I've got a LinkedIn page, or I can chat about it here. %[Show me the website](https://au.linkedin.com/in/andybowser) %[MORE](postback:more)",
+    "HELLO": "Hi there!\nI’m the personal bot of Andy Bowser, a Sys Admin from Sydney.\nWhat brings you here? %[RESUME](postback:resume) %[CONTACT](postback:contact)",
+    "RESUME": "Thanks. I've got a LinkedIn page. %[Show me the website](https://au.linkedin.com/in/andybowser) %[MORE](postback:more)",
     "MORE": "Ok. What would you like to know about? %[EMPLOYMENT](postback:EMPLOYMENT) %[Extracurriculars](postback:EXTRAS)",
     "EMPLOYMENT": "Right now I'm working as a System Administrator at Dubsat in Sydney, Australia. %[MOREWORK](postback:MOREWORK) %[MORE](postback:MORE) %[DONE](postback:DONE)",
     "MOREWORK": "Before Dubsat I was at Playroom, a digital media company that is part of Omnilab Media Group. Before that, I was in the UK working for LiDCO.%[MORE](postback:MORE) %[DONE](postback:DONE)",
